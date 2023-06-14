@@ -4,6 +4,7 @@ _Biological Data Science Summer School. 2-14 July 2023, Uzhhorod, Ukraine._
 
 Course materials for the analysis of confocal microscopy images: Reconstructing the biophysical properties of proteins using live-cell imaging data.
 
+
 ### Requirements
 - Python >= 3.9
 - Jupyter
@@ -15,11 +16,31 @@ Course materials for the analysis of confocal microscopy images: Reconstructing 
 
 I strongly recommend using the environment management system to install libraries correctly and prevent dependency conflicts ([Miniconda](https://docs.conda.io/en/latest/miniconda.html), [venv](https://docs.python.org/3/library/venv.html) etc.).
 
+
+### Conda installation and environment creation
+[Install](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) __Miniconda__ (Anaconda is too fat, 3GB) appropriate to your operating system. 
+
+Create an environment from YAML file:
+
+```
+conda env create -f bds3_env.yml
+```
+Activate new environment with command:
+```
+conda activate bds3_env
+```
+For deactivation:
+```
+conda deactivate bds3_env
+```
+
+
 ### Useful links
 - [Scikit-image examples](https://scikit-image.org/docs/stable/auto_examples/index.html)
 - [Image processing learning resorces](https://homepages.inf.ed.ac.uk/rbf/HIPR2/hipr_top.htm)
 - [Scientific Volume Imaging](https://svi.nl/Huygens-Imaging-Academy)
 - [Introduction to Modeling for Neuroscience](https://dabane-ghassan.github.io/ModNeuro/)
+
 
 ### References
 - __Fundamentals of Fluorescence Imaging__
