@@ -19,6 +19,7 @@ I strongly recommend using the environment management system to install librarie
 - [Scikit-image examples](https://scikit-image.org/docs/stable/auto_examples/index.html)
 - [Image processing learning resorces](https://homepages.inf.ed.ac.uk/rbf/HIPR2/hipr_top.htm)
 - [Scientific Volume Imaging](https://svi.nl/Huygens-Imaging-Academy)
+- [Introduction to Modeling for Neuroscience](https://dabane-ghassan.github.io/ModNeuro/)
 
 ### References
 - __Fundamentals of Fluorescence Imaging__
