@@ -14,21 +14,22 @@ Course materials for the analysis of confocal microscopy images: Reconstructing 
 - Matplotlib
 - SymPy (optional, for section 1 only)
 
-I strongly recommend using the environment management system to install libraries correctly and prevent dependency conflicts ([Miniconda](https://docs.conda.io/en/latest/miniconda.html), [venv](https://docs.python.org/3/library/venv.html) etc.).
+I strongly recommend using the environment management system to install libraries correctly and prevent dependency conflicts ([Miniconda](https://docs.conda.io/en/latest/miniconda.html), [venv](https://docs.python.org/3/library/venv.html) etc.). See instructions for conda below.
 
 
 ### Conda installation and environment creation
 [Install](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) __Miniconda__ (Anaconda is too fat, 3GB) appropriate to your operating system. 
 
 Create an environment from YAML file:
-
 ```
 conda env create -f bds3_env.yml
 ```
+
 Activate new environment with command:
 ```
 conda activate bds3_env
 ```
+
 For deactivation:
 ```
 conda deactivate bds3_env
@@ -40,6 +41,7 @@ conda deactivate bds3_env
 - [Image processing learning resorces](https://homepages.inf.ed.ac.uk/rbf/HIPR2/hipr_top.htm)
 - [Scientific Volume Imaging](https://svi.nl/Huygens-Imaging-Academy)
 - [Introduction to Modeling for Neuroscience](https://dabane-ghassan.github.io/ModNeuro/)
+- [Convolutions in image processing, YouTube](https://www.youtube.com/watch?v=8rrHTtUzyZA)
 
 
 ### References
