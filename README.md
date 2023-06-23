@@ -2,10 +2,9 @@ Bio Data Science^3
 ==================
 _Biological Data Science Summer School. 2-14 July 2023, Uzhhorod, Ukraine._
 
-Course materials for the analysis of confocal microscopy images: Reconstructing the biophysical properties of proteins using live-cell imaging data.
+Матеріали до практичного курсу з аналізу даних зображень "Реконструкція біофізичних властивостей кальцій-зв'язуючих білків за результами конфокальної мікроскопії".
 
-
-### Requirements
+### Необхідні бібліотеки
 - Python >= 3.9
 - Jupyter
 - Numpy
@@ -14,29 +13,29 @@ Course materials for the analysis of confocal microscopy images: Reconstructing 
 - Matplotlib
 - SymPy (optional, for section 1 only)
 
-I strongly recommend using the environment management system to install libraries correctly and prevent dependency conflicts ([Miniconda](https://docs.conda.io/en/latest/miniconda.html), [venv](https://docs.python.org/3/library/venv.html) etc.). See instructions for conda below.
+Наполегливо рекомендую використовувати менеджер середовищ для встановлення бібліотек щоб запобігти конфлікту версій та залежностей ([Miniconda](https://docs.conda.io/en/latest/miniconda.html), [venv](https://docs.python.org/3/library/venv.html) і т.д.), інструкція для роботи з Conda наведена нижче.
 
 
-### Conda installation and environment creation
-[Install](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) __Miniconda__ (Anaconda is too fat, 3GB) appropriate to your operating system. 
+### Встановлення Conda та створення середовища
+[Встановіть](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) __Miniconda__ (Anaconda одразу містить купу непотрібних для даного проекту пакетів і займай 3GB) для Вашої операційної системи. Настуані команди вводити в Unix-термінал (у випадку Linux або MacOS) або у конда Conda PowerShell (у випадку Windows).
 
-Create an environment from YAML file:
+Створення середовища із YAML файла:
 ```
 conda env create -f bds3_env.yml
 ```
 
-Activate new environment with command:
+Запуск середовища:
 ```
 conda activate bds3_env
 ```
 
-For deactivation:
+Вихід з середовища:
 ```
 conda deactivate bds3_env
 ```
 
 
-### Useful links
+### Корисні посилання
 - [Scikit-image examples](https://scikit-image.org/docs/stable/auto_examples/index.html)
 - [Image processing learning resorces](https://homepages.inf.ed.ac.uk/rbf/HIPR2/hipr_top.htm)
 - [Scientific Volume Imaging](https://svi.nl/Huygens-Imaging-Academy)
@@ -44,7 +43,7 @@ conda deactivate bds3_env
 - [Convolutions in image processing, YouTube](https://www.youtube.com/watch?v=8rrHTtUzyZA)
 
 
-### References
+### Література
 - __Fundamentals of Fluorescence Imaging__
 
   Cox, [doi.org/10.1201/9781351129404 ](https://www.taylorfrancis.com/books/edit/10.1201/9781351129404/fundamentals-fluorescence-imaging-guy-cox)
